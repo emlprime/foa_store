@@ -1,0 +1,18 @@
+Metadata-Version: 1.0
+Name: satchmo-livesettings
+Version: 0.1.4
+Summary: Satchmo Livesettings
+Home-page: http://bitbucket.org/jbo/satchmo-livesettings/
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: BSD
+Description: It is a spin-off project from Satchmo (configure settings via an admin interface).
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Utilities

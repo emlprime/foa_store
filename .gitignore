@@ -1,0 +1,7 @@
+django-app-plugins-read-only
+sorl-thumbnail
+django-threaded-multihost
+*.pyc
+db_data
+*~
+*.log
