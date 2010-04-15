@@ -1,4 +1,0 @@
-recursive-include livesettings *.po *.mo *.html *.txt
-recursive-include docs *
-
-include README ez_setup.py

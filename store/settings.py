@@ -8,7 +8,7 @@ DJANGO_ROOT = os.path.dirname(os.path.realpath(django.__file__))
 SITE_ROOT = os.path.dirname(os.path.realpath(__file__))
 DIRNAME = os.path.dirname(__file__)
 
-DJANGO_PROJECT = 'store'
+DJANGO_PROJECT = 'satchmo_store'
 DJANGO_SETTINGS_MODULE = 'store.settings'
 
 ADMINS = (

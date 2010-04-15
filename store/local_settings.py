@@ -57,3 +57,4 @@ logging.basicConfig(level=logging.DEBUG,
 logging.getLogger('keyedcache').setLevel(logging.INFO)
 logging.getLogger('l10n').setLevel(logging.INFO)
 logging.info("Satchmo Started")
+

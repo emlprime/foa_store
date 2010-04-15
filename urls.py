@@ -1,15 +1,13 @@
 from django.conf.urls.defaults import *
 from satchmo_store.urls import urlpatterns
 from django.contrib import admin
+from foa_store.settings import MEDIA_ROOT
 
 admin.autodiscover()
 
 urlpatterns += patterns('',
-    # Example:
-    # (r'^foa_store/', include('foa_store.foo.urls')),
+    (r'^static/(.*)$', 'django.views.static.serve', {'document_root': MEDIA_ROOT}),
 
-    # Uncomment the admin/doc line below and add 'django.contrib.admindocs' 
-    # to INSTALLED_APPS to enable admin documentation:
     # (r'^admin/doc/', include('django.contrib.admindocs.urls')),
 
     # Uncomment the next line to enable the admin:

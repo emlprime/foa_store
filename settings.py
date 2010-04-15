@@ -6,7 +6,7 @@ DJANGO_ROOT = os.path.dirname(os.path.realpath(django.__file__))
 SITE_ROOT = os.path.dirname(os.path.realpath(__file__))
 
 
-DEBUG = True
+DEBUG = False
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
@@ -84,6 +84,7 @@ TEMPLATE_DIRS = SITE_ROOT + '/templates/'
 TEMPLATE_CONTEXT_PROCESSORS = (
     'satchmo_store.shop.context_processors.settings',
     'django.core.context_processors.auth',
+    'satchmo_ext.recentlist.context_processors.recent_products',
     )
 
 INSTALLED_APPS = (
@@ -108,8 +109,11 @@ INSTALLED_APPS = (
     'tax.modules.percent',
     'shipping',
     'product',
+#    'product.modules.configurable',
+    'satchmo_ext.recentlist',
     'payment',
-    #    'payment.modules.giftcertificate',
+#    'payment.modules.dummy',
+    'payment.modules.giftcertificate',
     'satchmo_utils',
     'app_plugins',
     )
